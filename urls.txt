@@ -1,1 +1,31 @@
-https://www.sebi.gov.in/
+# Disclosure Desk - official SEBI source URLs
+# One direct document URL per line. Comments beginning with # are ignored.
+# Source publisher: Securities and Exchange Board of India (SEBI)
+#
+# CURRENT CORE DOCUMENTS
+# LODR Regulations, 2015 - consolidated up to 15 October 2026
+https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792664915776.pdf
+# LODR Master Circular - 30 January 2026
+https://www.sebi.gov.in/sebi_data/attachdocs/jan-2026/1769776024792.pdf
+#
+# HISTORICAL CONSOLIDATED REGULATION SNAPSHOTS
+# LODR Regulations, 2015 - consolidated up to 14 July 2026
+https://www.sebi.gov.in/sebi_data/attachdocs/jul-2026/1784630770711.pdf
+# LODR Regulations, 2015 - consolidated up to 10 July 2024
+https://www.sebi.gov.in/sebi_data/attachdocs/jul-2024/1721295106007.pdf
+#
+# RELATED-PARTY TRANSACTION CLARIFICATION
+# SEBI circular dated 30 March 2022 - Regulation 23 / RPT clarification
+https://www.sebi.gov.in/sebi_data/attachdocs/mar-2022/1648647788102.pdf
+#
+# OFFICIAL SEBI ARCHIVES (REFERENCE ONLY - these are HTML pages, not direct PDFs)
+# Regulations archive: https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListingLegal=yes&sid=1&ssid=3
+# Circulars archive: https://www.sebi.gov.in/legal/circulars.html
+# Master circulars archive: https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=6
+#
+# Notes:
+# - Verify the document's publication/effective dates and current status before indexing.
+# - Keep each version; do not overwrite historical documents.
+# - Check SEBI terms and robots.txt before running automated downloads.
+# - The archive URLs above are for manual discovery and should not be fed to a
+#   downloader that expects direct PDF files.

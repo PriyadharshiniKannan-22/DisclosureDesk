@@ -10,4 +10,8 @@ jobs:
           python-version: "3.12"
       - run: pip install -r requirements-dev.txt
       - run: ruff check .
+<<<<<<< HEAD
       - run: pytest -q
+=======
+      - run: python -m pytest -q
+>>>>>>> fd695a9706fb46d92f1ca6136c706fe9c5df335a
