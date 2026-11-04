@@ -16,7 +16,7 @@ Commit after every class. Tag every Friday: `git tag week-N && git push origin w
 - [x] Cost log + GET /usage
 - [x] Docker Compose (API + Postgres/pgvector) runs
 - [x] CI green, live link in README
-- [ ] Tag week-2 pushed
+- [x] Tag week-2 pushed
 
 ## Week 3 (tag week-3 by Fri 6 Nov)
 - [ ] Parser keeps page numbers and headings
