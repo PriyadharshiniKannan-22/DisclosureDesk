@@ -1,4 +1,5 @@
 import os
+
 from pypdf import PdfReader
 
 CODE = (".py", ".java", ".go", ".c", ".h", ".js", ".ts", ".scala", ".rs", ".kt", ".yaml", ".yml")

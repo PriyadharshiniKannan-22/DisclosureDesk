@@ -4,6 +4,7 @@ Usage:
     python tools/find_sebi_pdfs.py --out urls.txt
     python tools/find_sebi_pdfs.py --filter "listing obligations" --out urls.txt
 """
+
 import argparse
 import re
 import time
@@ -11,14 +12,10 @@ import time
 import requests
 from bs4 import BeautifulSoup
 
-HEADERS = {
-    "User-Agent": "ExamateStudentProject/1.0 (learning project; contact: mabhusubhani001@gmail.com)"
-}
+HEADERS = {"User-Agent": "ExamateStudentProject/1.0 (learning project; contact: mabhusubhani001@gmail.com)"}
 DELAY = 1.5  # Polite delay between page requests
 
-MASTER_CIRCULARS_URL = (
-    "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=6&smid=0"
-)
+MASTER_CIRCULARS_URL = "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=6&smid=0"
 LODR_REGULATION_PAGE = (
     "https://www.sebi.gov.in/legal/regulations/jan-2026/"
     "securities-and-exchange-board-of-india-listing-obligations-and-disclosure-requirements-"
@@ -97,11 +94,13 @@ def main():
     print("Checking LODR Regulation page...")
     lodr_pdf = get_pdf_from_article(LODR_REGULATION_PAGE)
     if lodr_pdf:
-        found_entries.append((
-            "SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015 [Amended Jan 2026]",
-            "Jan 22, 2026",
-            lodr_pdf
-        ))
+        found_entries.append(
+            (
+                "SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015 [Amended Jan 2026]",
+                "Jan 22, 2026",
+                lodr_pdf,
+            )
+        )
 
     # 2. Scrape Master Circulars (either filtered by LODR or all on page 1)
     kw = args.filter if args.filter else (None if args.all_master else "listing obligations")
