@@ -8,3 +8,7 @@ logs/
 data/raw/
 *.sqlite
 .DS_Store
+venv
+AGENTS.md
+today_task/
+outdated_tasks/

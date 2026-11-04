@@ -8,7 +8,7 @@ Commit after every class. Tag every Friday: `git tag week-N && git push origin w
 - [ ] /health runs locally
 - [ ] docs/QUESTIONS.md: 10 real questions
 - [ ] 50+ pages collected, DATASET.md filled, sample in data/sample/
-- [ ] Tag week-1 pushed
+- [ ] Tag week-1 pushed 
 
 ## Week 2 (tag week-2 by Fri 30 Oct)
 - [ ] POST /chat calls an LLM and returns structured JSON
