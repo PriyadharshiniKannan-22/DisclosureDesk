@@ -103,6 +103,8 @@ async def chat(request: ChatRequest, settings: SettingsDep, provider: LLMDep) ->
 
     return StreamingResponse(event_stream(), media_type="text/event-stream")
 
+
 @app.get("/usage")
 def usage(settings: SettingsDep) -> dict:
+    """Calls, tokens and cost per day (UTC) from the cost log."""
     return usage_by_day(settings.cost_log_path)
