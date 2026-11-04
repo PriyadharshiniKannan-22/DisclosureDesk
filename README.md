@@ -1,5 +1,9 @@
 # DisclosureDesk
 
+[![CI](https://github.com/PriyadharshiniKannan-22/DisclosureDesk/actions/workflows/ci.yml/badge.svg)](https://github.com/PriyadharshiniKannan-22/DisclosureDesk/actions/workflows/ci.yml)
+
+**Live:** https://disclosuredesk.onrender.com/health · first request after 15 idle minutes takes about a minute (free tier)
+
 ## Problem
 Listed companies need to disclose board meetings, financial results, related-party transactions and material events within strict SEBI deadlines. However, the relevant rules are spread across SEBI LODR Regulations, amendments, master circulars and later circulars. Finding the correct clause and deadline often requires checking multiple documents. Disclosure Desk helps company secretarial teams find the applicable requirements, deadlines and supporting clauses in one place.
 
@@ -15,9 +19,6 @@ Cross-document comparison. A question such as “We are acquiring a 12% stake in
 ## Dataset
 | Source | Link | Documents | Pages | Licence / terms |
 |---|---|---|---|---|
-<<<<<<< HEAD
-| <name> | <url> | <n> | <n> | <licence> |
-=======
 | Securities and Exchange Board of India (SEBI) | https://www.sebi.gov.in/ | SEBI LODR Regulations, 2015, amendments, master circular and later LODR circulars | 900+ pages | Official SEBI publications; refer to the applicable document terms |
 
 ## 10 real questions
@@ -33,4 +34,4 @@ curl localhost:8000/health
 ```
 
 ## Live link
-<Added in Week 2>
+https://disclosuredesk.onrender.com/health
